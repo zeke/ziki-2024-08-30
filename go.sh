@@ -1,0 +1,1 @@
+npx yolox "$(cat PROMPT.md)"
