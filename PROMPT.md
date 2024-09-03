@@ -1,6 +1,6 @@
 find the mp4 file in this directory.
 
-use ffmpeg to break it up into a series of images, at every ten frames.
+use ffmpeg to extract every 10th frame from the video.
 
 make a directory for the frames named after the basename of the mp4 file.
 

@@ -1,11 +1,13 @@
-This is a thing that turns plain English instructions into working shell commands.
+This repository contains training data for a Flux image generation model.
 
-## The task
+https://replicate.com/zeke/ziki-2024-08-30
 
-I have an MP4 file and I want to turn it into a series of frames.
+## How it works
 
-## Usage
+The training data is a series of frames extracted from a short video of me spinning around in front of a green screen.
+
+## Extract frames from a video
 
 1. Edit [PROMPT.md](PROMPT.md) and describe the task in plain English.
-2. Run `./go.sh` to ask a language model to turn PROMPT.md into a working shell command, then run it.
-3. 🎉 Voila! Your video turns into frames and you didn't have to figure out the complicated commands to make it happen.
+2. Run `npm i -g yolox && yolox PROMPT.md` to magically turn PROMPT.md into a working shell command and run it.
+3. 🎉 Voila! Video turns into frames.
